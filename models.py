@@ -78,8 +78,8 @@ class DenseGCNGRU(torch.nn.Module):
                                                        add_self_loops=self.add_self_loops,
                                                       ),
                                     norm=None,
-                                    act=torch.nn.LeakyReLU(),
-                                    dropout=0.1, 
+                                    act=None, #torch.nn.LeakyReLU(),
+                                    dropout= 0, #0.1, 
                                     block='dense')
         self.gru = torch.nn.GRU(130,64,2,batch_first=True)
         self.fc = torch.nn.Linear(64, self.periods)
