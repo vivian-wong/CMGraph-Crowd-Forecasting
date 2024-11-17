@@ -4,6 +4,7 @@ This is the repository for the paper
 ```
 Modeling Crowd Data and Spatial Connectivity as Graphs for Effective Crowd Flow Forecasting in Public Urban Space
 ```
+As shown in the paper, the dataset used is the public dataset Grand Central Station (see citation in paper)
 
 Instructions to run: 
 1. Create a conda environment pedestrian-test with environments.yml: 
